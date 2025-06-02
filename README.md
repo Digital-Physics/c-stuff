@@ -26,3 +26,7 @@ int main() {
 will compile when you run "gcc hello_world.c -o hello_world_compiled" in the terminal.
 
 
+Better yet. Let's use void. In C, empty parentheses () don't mean "no parameters" - they mean "unspecified number of parameters." This is different from languages like Java or Python.
+
+int main()      // "main takes some unspecified parameters"
+int main(void)  // "main takes exactly zero parameters"
